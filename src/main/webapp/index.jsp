@@ -8,12 +8,9 @@
 <h1><%= "Hello World!" %>
 </h1>
 <br/>
-<form action="login-servlet" method="post">
-    <label for="username">Username:</label><br>
-    <input type="text" id="username" name="username"><br>
-    <label for="password">Password:</label><br>
-    <input type="password" id="password" name="password"><br>
-    <input type="submit" value="Login">
-</form>
+
+<%-- route to login --%>
+<a href="login-servlet">Login</a>
+
 </body>
 </html>

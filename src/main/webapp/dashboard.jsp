@@ -13,7 +13,7 @@
 <a href="logout-servlet">Đăng xuất</a>
 <%
     } else {
-        response.sendRedirect("login.jsp");
+        response.sendRedirect("index.jsp");
     }
 %>
 </body>
